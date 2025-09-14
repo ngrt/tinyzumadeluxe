@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+Define WidthList
+ (  11,   11,  11,  11,  11,  11,  11,  11,  11,  11);
+
+Define RectList
+ ( (   0,  0, 12, 14), (  13,  0,  5, 14), (  19,  0, 11, 14), (  31,  0,  9, 14),
+   (  41,  0, 12, 14), (  54,  0,  9, 14), (  64,  0, 10, 14), (  75,  0, 10, 14),
+   (  86,  0, 10, 14), (  97,  0, 10, 14));
+
+Define OffsetList
+ ( ( 1, 0), ( 3, 0), ( 0, 0), ( 0, 0), ( 1, 0), ( 0, 0), ( 1, 0), ( 0, 0),
+   ( 1, 0), ( 1, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main 'Cancun13';
+LayerSetAscent            Main 13;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (10);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 0;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 13;
+
+SetDefaultPointSize  13;
