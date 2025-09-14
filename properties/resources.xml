@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<ResourceManifest>
+
+<!-- Init Resources -->
+<Resources id="Init">
+<SetDefaults path="images" idprefix="IMAGE_" />
+
+<Image id="LOADING_SCREEN"					path="loadingscreen" />
+<Image id="LOADERBAR"						path="loaderbar" />
+
+<Image id="CURSOR_POINTER"					path="cursor_pointer" />
+<Image id="CURSOR_HAND"						path="cursor_hand" />
+<Image id="CURSOR_DRAGGING"					path="cursor_dragging" />
+<Image id="CURSOR_TEXT"						path="cursor_text" />
+
+<SetDefaults path="fonts" idprefix="FONT_" />
+<Font id="MAIN10"							path="cancun10.txt"/>
+<Font id="DIALOG"							path="!program"/>
+<Font id="MAIN10OUTLINE"					path="!program"/>
+<Font id="MAIN10OUTLINE2"					path="!program"/>
+<Font id="MAIN10OUTLINE3"					path="!program"/>
+<Font id="FLOAT"							path="cancunfloat14.txt"/>
+
+</Resources>
+
+<!-- Register Resources -->
+<Resources id="Register">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="DIALOG_BUTTON"				path="Dialogbutton" />
+<Image id="DIALOG_BACK"					path="dialogbox" />
+
+<SetDefaults path="fonts" idprefix="FONT_" />
+<Font id="TITLE"							path="nativealienextended18.txt"/>
+<Font id="PLAIN"							path="arial12bold.txt"/>
+
+<SetDefaults path="sounds" idprefix="SOUND_" />
+<Sound id="BUTTON1"							path="button1"/>
+
+</Resources>
+  
+<!-- EyeBlaster Resources -->
+<Resources id="EyeBlaster">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="EYEBLASTER_BACKGROUND"   path="adscreen_backdrop" />
+<Image id="EYEBLASTER_BUYBUTTON"    path="adscreen_buybutton" rows="2" cols="1" />
+
+<SetDefaults path="fonts" idprefix="FONT_" />
+<Font id="SMALL_ARIAL"              path="arial9bold.txt" />
+</Resources>
+
+<!-- EyeBlaster Extended Resources -->
+<Resources id="EyeBlasterExtended">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="EYEBLASTER_MAXBUTTON"   path="adscreen_maxbutton" rows="4" cols="1" />
+<Image id="EYEBLASTER_RESTOREBUTTON"   path="adscreen_restorebutton" rows="3" cols="1" />
+<Image id="EYEBLASTER_SKIPBUTTON"   path="adscreen_skipbutton" rows="4" cols="1" />
+</Resources>
+
+<!-- EyeBlaster Level-Lock mode Resources -->
+<Resources id="LevelLocked">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="LEVLOCK_BACKGROUND"      path="levlock_background" />
+<Image id="LEVLOCK_BUYLABEL"        path="levlock_buylabel" />
+<Image id="LEVLOCK_PLAYLABEL"       path="levlock_playlabel" />
+<Image id="LEVLOCK_BUTTONS"         path="levlock_buttons" rows="2" cols="1" />
+<Image id="LEVLOCK_PLAYBUTTON"      path="!program" />
+<Image id="LEVLOCK_BUYBUTTON"       path="!program" />
+
+<SetDefaults path="fonts" idprefix="FONT_" />
+<Font id="UPSELL"                   path="cancun22.txt" />
+</Resources>
+
+
+<!-- MoreGames Resources -->
+<Resources id="MoreGames">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="MOREGAMES_SCREEN"				path="moregamesscreen" />
+<Image id="MOREGAMES_BUTTON"				path="moregamesbutton" />
+</Resources>
+
+<!-- HelpScreen Resources -->
+<Resources id="HelpScreen">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="HELP_FRONT"						path="helpfront" />
+<Image id="HELP_BACK"						path="helpback" />
+</Resources>
+
+<!-- MainMenu Resources -->
+<Resources id="MainMenu">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="MM_BACK"							path="mmscreen" />
+<Image id="MM_GAUNTLET"						path="mmgauntletbutton" />
+<Image id="MM_ARCADE"						path="mmarcadebutton" />
+<Image id="MM_MOREGAMES"					path="mmmoregamesbutton" />
+<Image id="MM_OPTIONS"						path="mmoptionsbutton" />
+<Image id="MM_QUIT"							path="mmquitbutton" />
+<Image id="MM_EYELEFT"						path="mmeyeleft" />
+<Image id="MM_EYERIGHT"						path="mmeyeright" />
+<Image id="MM_EYEMASK"						path="mmeyemask" />
+<Image id="MM_SUN"							path="mmsun" />
+<Image id="MM_SKY"							path="mmsky" />
+<Image id="MM_HAT"							path="mmhat" />
+</Resources>
+
+<!-- AdventureScreen Resources -->
+<Resources id="AdventureScreen">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="ADVSKY"							path="advsky" />
+<Image id="ADVBACK"							path="advback" />
+<Image id="ADVMIDDLE"						path="advmiddle" />
+<Image id="ADVTEMPLE1"						path="advtemple1" />
+<Image id="ADVTEMPLE2"						path="advtemple2" />
+<Image id="ADVTEMPLE3"						path="advtemple3" />
+<Image id="ADVTEMPLE4"						path="advtemple4" />
+<Image id="ADVTEMPLE2V"						path="advtemple2v" />
+<Image id="ADVTEMPLE3V"						path="advtemple3v" />
+<Image id="ADVDOOR1A"						path="advdoor1a" cols="4" />
+<Image id="ADVDOOR1B"						path="advdoor1b" cols="4" />
+<Image id="ADVDOOR1C"						path="advdoor1c" cols="4" />
+<Image id="ADVDOOR2A"						path="advdoor2a" cols="4" />
+<Image id="ADVDOOR2B"						path="advdoor2b" cols="4" />
+<Image id="ADVDOOR2C"						path="advdoor2c" cols="4" />
+<Image id="ADVDOOR3A"						path="advdoor3a" cols="4" />
+<Image id="ADVDOOR3B"						path="advdoor3b" cols="4" />
+<Image id="ADVDOOR3C"						path="advdoor3c" cols="4" />
+<Image id="ADVDOOR4A"						path="advdoor4a" cols="4" />
+<Image id="ADVDOOR4B"						path="advdoor4b" cols="4" />
+<Image id="ADVDOOR4C"						path="advdoor4c" cols="4" />
+<Image id="ADVMAINMENUBUTTON"				path="advmainmenubutton" />
+<Image id="ADVPLAYBUTTON"					path="advplaybutton" />
+<Image id="ADVSTAGE"						path="advstage" />
+<Image id="ADVTITLE"						path="advtitle" />
+<Image id="ADVHIGHSCORE"					path="advhighscore" />
+</Resources>
+
+<!-- Gauntlet Resources -->
+<Resources id="GauntletScreen">
+<SetDefaults path="images" idprefix="IMAGE_" />
+<Image id="GAUNTSCREEN"						path="gauntscreen" />
+<Image id="GAUNTSKY"						path="gauntsky" />
+<Image id="GAUNTDOOR1"						path="gauntdoor1" cols="4" />
+<Image id="GAUNTDOOR2"						path="gauntdoor2" cols="4" />
+<Image id="GAUNTDOOR3"						path="gauntdoor3" cols="4" />
+<Image id="GAUNTDOOR4"						path="gauntdoor4" cols="4" />
+<Image id="GAUNTBACKBUTTON"					path="gauntbackbutton" />
+<Image id="GAUNTMAINMENUBUTTON"				path="gauntmainmenubutton" />
+<Image id="GAUNTNEXTBUTTON"					path="gauntnextbutton" />
+<Image id="GAUNTPLAYBUTTON"					path="gauntplaybutton" />
+<Image id="GAUNTEAGLEGEM"					path="gaunteaglegem" />
+<Image id="GAUNTJAGUARGEM"					path="gauntjaguargem" />
+<Image id="GAUNTSUNGEM"						path="gauntsungem" />
+<Image id="GAUNTTITLE"						path="gaunttitle" />
+<Image id="GAUNTHIGHSCORE"					path="gaunthighscore" />
+<Image id="GAUNTPRACTICEBUTTON"				path="gauntpracticebutton" />
+<Image id="GAUNTSURVIVALBUTTON"				path="gauntsurvivalbutton" />
+</Resources>
+
+<!-- LoadingThread Resources -->
+<Resources id="LoadingThread">
+
+<SetDefaults path="images" idprefix="IMAGE_" />
+
+<Image id="SUNGLOW"							path="mmsunglow" />
+
+<Image id="BLUE_BALL"						path="baBallBlue" alphagrid="_ballalpha" rows=47 alias="BALL_START" />
+<Image id="YELLOW_BALL"						path="baBallYellow" alphagrid="_ballalpha" rows=50 />
+<Image id="RED_BALL"						path="baBallRed" alphagrid="_ballalpha" rows=50 />
+<Image id="GREEN_BALL"						path="baBallGreen" alphagrid="_ballalpha" rows=50 />
+<Image id="PURPLE_BALL"						path="baBallPurple" alphagrid="_ballalpha" rows=51 />
+<Image id="WHITE_BALL"						path="baBallWhite" alphagrid="_ballalpha" rows=50 alias="BALL_END" />
+<Image id="NEXT_BALL"						path="baDotz" cols=6 />
+
+<Image id="BALL_ALPHA"						path="ballalpha" />
+<Image id="BALL_SHADOW"						path="_ballshadow" alphaimage="_ballshadow" />
+
+<Image id="BLUE_ACCURACY"					path="baAccuracyBlue" alphaimage="_ballalpha" />
+<Image id="YELLOW_ACCURACY"					path="baAccuracyYellow" alphaimage="_ballalpha" />
+<Image id="RED_ACCURACY"					path="baAccuracyRed" alphaimage="_ballalpha" />
+<Image id="GREEN_ACCURACY"					path="baAccuracyGreen" alphaimage="_ballalpha" />
+<Image id="PURPLE_ACCURACY"					path="baAccuracyPurple" alphaimage="_ballalpha" />
+<Image id="WHITE_ACCURACY"					path="baAccuracyWhite" alphaimage="_ballalpha" />
+
+<Image id="BLUE_BACKWARDS"					path="baBackwardsBlue" alphaimage="_ballalpha" />
+<Image id="YELLOW_BACKWARDS"				path="baBackwardsYellow" alphaimage="_ballalpha" />
+<Image id="RED_BACKWARDS"					path="baBackwardsRed" alphaimage="_ballalpha" />
+<Image id="GREEN_BACKWARDS"					path="baBackwardsGreen" alphaimage="_ballalpha" />
+<Image id="PURPLE_BACKWARDS"				path="baBackwardsPurple" alphaimage="_ballalpha" />
+<Image id="WHITE_BACKWARDS"					path="baBackwardsWhite" alphaimage="_ballalpha" />
+
+<Image id="BLUE_SLOW"						path="baSlowBlue" alphaimage="_ballalpha" />
+<Image id="YELLOW_SLOW"						path="baSlowYellow" alphaimage="_ballalpha" />
+<Image id="RED_SLOW"						path="baSlowRed" alphaimage="_ballalpha" />
+<Image id="GREEN_SLOW"						path="baSlowGreen" alphaimage="_ballalpha" />
+<Image id="PURPLE_SLOW"						path="baSlowPurple" alphaimage="_ballalpha" />
+<Image id="WHITE_SLOW"						path="baSlowWhite" alphaimage="_ballalpha" />
+
+<Image id="GRAY_EXPLOSION"					path="grayplosion" rows=13/>
+<Image id="EXPLOSION"						path="explosion" rows=17/>
+
+<Image id="BLUE_BOMB"						path="baBombBlue" alphaimage="_baBomb" alias="BOMB_START"/> 
+<Image id="YELLOW_BOMB"						path="baBombYellow" alphaimage="_baBomb" />
+<Image id="RED_BOMB"						path="baBombRed" alphaimage="_baBomb" />
+<Image id="GREEN_BOMB"						path="baBombGreen" alphaimage="_baBomb" />
+<Image id="PURPLE_BOMB"						path="baBombPurple" alphaimage="_baBomb" />
+<Image id="WHITE_BOMB"						path="baBombWhite" alphaimage="_baBomb" />
+
+<Image id="BLUE_LIGHT"						path="baLightBlue" alphaimage="_baLight" alias="LIGHT_START"/> 
+<Image id="YELLOW_LIGHT"					path="baLightYellow" alphaimage="_baLight" />
+<Image id="RED_LIGHT"						path="baLightRed" alphaimage="_baLight" />
+<Image id="GREEN_LIGHT"						path="baLightGreen" alphaimage="_baLight" />
+<Image id="PURPLE_LIGHT"					path="baLightPurple" alphaimage="_baLight" />
+<Image id="WHITE_LIGHT"						path="baLightWhite" alphaimage="_baLight" />
+
+<Image id="BACKWARDS_LIGHT"					path="baBackwardsLight"  />
+<Image id="ACCURACY_LIGHT"					path="baAccuracyLight"  />
+<Image id="SLOW_LIGHT"						path="baSlowLight"  />
+
+<Image id="SPARKLE"							path="sparkle" cols=14 />
+
+
+<Image id="SHOOTER_BOTTOM"				path="smallfrogonpad" />
+<Image id="SHOOTER_TOP"					path="hatchback" />
+<Image id="SHOOTER_TONGUE"				path="tongue" />
+<Image id="EYE_BLINK"					path="eyeblink" />
+
+<Image id="DIALOG_CHECKBOX"				path="checkbutton" />
+<Image id="DIALOG_CHECKBOXCAP"			path="checkboxcap" />
+<Image id="DIALOG_CHECKBOXLINE"			path="checkboxsliver" />
+<Image id="SLIDER_TRACK"				path="slidertrack" />
+<Image id="SLIDER_THUMB"				path="sliderthumb" />
+<Image id="UPDATE_BAR"					path="waitbar" />
+<Image id="GOD_HEAD"					path="godhead" />
+
+<Image id="HOLE"							path="hole" />
+<Image id="HOLE_COVER"						path="pitcover" rows="12" />
+<Image id="COIN"							path="coin" rows=30 />
+<Image id="RIGHT_MOUSE"						path="tut_mouse_r" cols=2 />
+
+<Image id="MENU_BAR"						path="menubar"/>
+<Image id="MENU_BUTTON"						path="menubutton" />
+<Image id="ZUMA_BAR"						path="gauge"/>
+<Image id="ZUMA_BAR_DONE"					path="gaugegreen" alphaimage="_gauge" />
+<Image id="FROG_LIVES"						path="toadlives"/>
+
+<SetDefaults path="sounds" idprefix="SOUND_" />
+<Sound id="BALLCLICK1"						path="ballclick1" volume="0.80" /> 
+<Sound id="BALLCLICK2"						path="ballclick2" /> 
+<Sound id="BALLFIRE"						path="fireball1"/> 
+<Sound id="WARNING"							path="warning1"/> 
+<Sound id="EXPLODE"							path="bombexplode"/>
+<Sound id="EARTHQUAKE"						path="earthquake"/>
+<Sound id="FROGLAND"						path="frogland2"/>
+<Sound id="JEWEL_APPEAR"					path="jewelappear" volume="0.40"/>
+<Sound id="JEWEL_DISAPPEAR"					path="gemvanishes" />
+<Sound id="JEWEL_HIT"						path="coingrab"/>
+<Sound id="CHAIN_BONUS"						path="chain1"/>
+<Sound id="GAP_BONUS"						path="gapbonus1"/>
+<Sound id="ROLLING"							path="rolling"/>
+<Sound id="EXTRA_LIFE"						path="extralife"/>
+
+<Sound id="SLOWDOWN_BALL"					path="slowdown1"	/>
+<Sound id="BACKWARDS_BALL"					path="reverse1"	/>
+<Sound id="ACCURACY_BALL"					path="accuracy3"	/>
+<Sound id="TRAIL_LIGHT"						path="lighttrail2" volume="0.70"	/>
+<Sound id="TRAIL_LIGHT_END"					path="chant3" />
+<Sound id="GAME_START"						path="chant1" volume="0.7" />
+<Sound id="LEVEL_UP"						path="chant2" />
+<Sound id="BAR_FULL"						path="chant4" />
+<Sound id="LOST_LIFE"						path="chant14" />
+<Sound id="GAME_OVER"						path="chant8" />
+<Sound id="STAGE_COMPLETE"					path="chant5" />
+<Sound id="TEMPLE_COMPLETE"					path="chant6" />
+<Sound id="BONUS_EXPLOSION"					path="endoflevelpop1" volume="0.50"	/>
+
+<Sound id="BALLDESTROYED1"					path="ballsdestroyed1" volume="0.80" /> 
+<Sound id="BALLDESTROYED2"					path="ballsdestroyed2" volume="0.80" /> 
+<Sound id="BALLDESTROYED3"					path="ballsdestroyed3" volume="0.85" /> 
+<Sound id="BALLDESTROYED4"					path="ballsdestroyed4" volume="0.90" /> 
+<Sound id="BALLDESTROYED5"					path="ballsdestroyed5" volume="0.95" /> 
+<Sound id="COMBO"							path="chime1" /> 
+
+<Sound id="BUTTON2"							path="button2"/>
+<Sound id="CHORAL1"							path="choral1" volume="0.2" />
+<Sound id="POP"								path="pop" />
+<Sound id="UFO"								path="ufo1" />
+
+<SetDefaults path="fonts" idprefix="FONT_" />
+<Font id="HUGE"								path="nativealien48.txt"/>
+<Font id="MONODIGIT"						path="cancun13.txt"/>
+<Font id="BROWNTITLE"						path="nativealienextended16.txt"/>
+<Font id="MAIN12"							path="cancun12.txt"/>
+<Font id="MAIN8"							path="cancun8.txt"/>
+<Font id="MAIN8OUTLINE"						path="!program"/>
+
+</Resources>
+
+</ResourceManifest>
